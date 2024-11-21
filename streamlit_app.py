@@ -8,3 +8,4 @@ st.sidebar.header("Secciones disponibles")
 opcion = st.sidebar.selectbox(
     "Selecciona una sección:",
     ["Información básica", "Funciones biológicas", "Propiedades químicas"]
+)

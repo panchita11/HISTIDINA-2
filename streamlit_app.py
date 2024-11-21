@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.title("HISTIDINA👩🏻‍🔬")
-st.write(""" Proyecto de Bioinformatica"Dashboard interactivo"teniendo como tema la proteina Histidina""")
+st.write(""" Proyecto de Bioinformatica "Dashboard interactivo" teniendo como tema la proteina Histidina, por alumnas: Paola Moreno Carrazco y Francisca Teran Acuña""")
 st.sidebar.title("Menú de navegación")
 st.sidebar.header("Secciones disponibles")
 

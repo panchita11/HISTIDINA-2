@@ -21,3 +21,41 @@ Muchos alimentos son ricos en histidina, como las proteínas animales (carne y p
 
 El déficit o el exceso de histidina ocasionado por problemas hereditarios metabólicos o de transporte, o la falla dietética en la ingesta, se relacionan con algunos problemas importantes que afectan la salud en niños y en adultos. El consumo suficiente de histidina permite mantener una vida sana y saludable en la mayor parte de los casos.""")
     st.image("""https://draxe.com/wp-content/uploads/2019/06/histidine-header-768x350.jpg""")
+elif opcion == "Funciones biológicas":
+   st.header("Funciones biologicas de la Histidina")
+   st.write("""La histidina cumple varias funciones biológicas esenciales en el cuerpo humano debido a su estructura química única, que incluye un anillo imidazol capaz de participar en diversas reacciones químicas. Aquí están sus principales funciones:""")
+   st.image("https://www.mismumi.com/wp-content/uploads/histidina-aminoacido-funcion-336x205.jpg")
+   st.write("""1. Regulación del pH 
+El anillo imidazol de la histidina tiene un pKa cercano al pH fisiológico (~6.0), lo que le permite actuar como un regulador en los cambios de pH.  
+
+ 2. Precursor de la histamina
+La histidina es el precursor de la histamina, una amina biológicamente activa con funciones importantes:  
+- Sistema inmunológico: La histamina es liberada durante las reacciones alérgicas y juega un papel clave en la respuesta inflamatoria.  
+- Sistema nervioso: Actúa como neurotransmisor en el cerebro.
+
+3. Participación en reacciones enzimáticas
+El grupo imidazol de la histidina es fundamental en muchas enzimas:  
+- Actúa como donador o receptor de protones en reacciones catalíticas.  
+
+ 4. Unión y transporte de metales
+La histidina es crucial en la unión de iones metálicos:  
+- Hemoglobina y mioglobina: Participa en la unión del oxígeno a través de la interacción con el grupo hemo.
+- Forma complejos con otros metales como el zinc, el cobre y el hierro, esenciales para funciones enzimáticas y estructurales.
+
+5. Rol en la estabilidad estructural de proteínas
+Contribuye a la formación de:  
+- Puentes de hidrógeno y enlaces no covalentes que estabilizan la estructura tridimensional de las proteínas.  
+Es importante en proteínas como la colágena y en mecanismos de unión molecular.
+
+ 6.Producción de energía
+En el metabolismo, la histidina puede ser degradada en el ciclo de los ácidos tricarboxílicos (ciclo de Krebs):  
+- Se convierte en ácido glutámico y luego en α-cetoglutarato, un intermediario clave en la producción de energía celular.
+
+7.Impulso nervioso y neurotransmisión  
+- Como precursor de la histamina, tiene un rol en la transmisión sináptica en el cerebro, regulando el ciclo sueño-vigilia y la memoria.  
+- También influye en procesos relacionados con la modulación de la excitabilidad neuronal.
+
+8. Rol en el sistema inmunológico  
+- Participa en la maduración y función de los glóbulos blancos.  
+- Es esencial para la síntesis de proteínas involucradas en la respuesta inmune, como las inmunoglobulinas.""")
+    st.video("https://youtu.be/q0BljBXEpWE?si=vMA1uck2KHgMCPdY")

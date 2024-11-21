@@ -73,7 +73,8 @@ elif opcion == "Propiedades químicas":
 5.	Soluble en agua: Debido a su polaridad.
 
 6.	Función bioquímica: Participa en la catálisis enzimática y actúa como tampón biológico.
-# Datos de pKa para la histidina y algunas otras proteínas
+""")
+    # Datos de pKa para la histidina y algunas otras proteínas
 proteins = ["Histidina", "Aspartato", "Glutamato", "Cisteína", "Lysina"]
 pKa_values = [6.0, 3.9, 4.2, 8.3, 10.5]
 
@@ -83,6 +84,5 @@ st.write("A continuación se muestra una comparación sencilla de los valores de
 
 # Crear un gráfico de barras con Streamlit
 st.bar_chart(data={"Proteínas": proteins, "pKa": pKa_values})
-""")
     
    

@@ -21,6 +21,7 @@ Muchos alimentos son ricos en histidina, como las proteínas animales (carne y p
 
 El déficit o el exceso de histidina ocasionado por problemas hereditarios metabólicos o de transporte, o la falla dietética en la ingesta, se relacionan con algunos problemas importantes que afectan la salud en niños y en adultos. El consumo suficiente de histidina permite mantener una vida sana y saludable en la mayor parte de los casos.""")
     st.image("""https://draxe.com/wp-content/uploads/2019/06/histidine-header-768x350.jpg""")
+    st.video("https://youtu.be/q0BljBXEpWE?si=vMA1uck2KHgMCPdY")
 elif opcion == "Funciones biológicas":
    st.header("Funciones biologicas de la Histidina")
    st.write("""La histidina cumple varias funciones biológicas esenciales en el cuerpo humano debido a su estructura química única, que incluye un anillo imidazol capaz de participar en diversas reacciones químicas. Aquí están sus principales funciones:""")

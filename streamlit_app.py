@@ -59,6 +59,7 @@ En el metabolismo, la histidina puede ser degradada en el ciclo de los ácidos t
 8. Rol en el sistema inmunológico  
 - Participa en la maduración y función de los glóbulos blancos.  
 - Es esencial para la síntesis de proteínas involucradas en la respuesta inmune, como las inmunoglobulinas.""")
+    st.image("https://laguiadelasvitaminas.com/wp-content/uploads/2018/07/proteccion-germenes-696x806.jpg")
 elif opcion == "Propiedades químicas":
     st.header("Propiedades químicas de la histidina")
     st.write("""La histidina es un aminoácido esencial con estas propiedades químicas principales:

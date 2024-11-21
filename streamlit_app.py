@@ -22,31 +22,6 @@ Muchos alimentos son ricos en histidina, como las proteínas animales (carne y p
 El déficit o el exceso de histidina ocasionado por problemas hereditarios metabólicos o de transporte, o la falla dietética en la ingesta, se relacionan con algunos problemas importantes que afectan la salud en niños y en adultos. El consumo suficiente de histidina permite mantener una vida sana y saludable en la mayor parte de los casos.""")
     st.image("""https://draxe.com/wp-content/uploads/2019/06/histidine-header-768x350.jpg""")
     st.video("https://youtu.be/q0BljBXEpWE?si=vMA1uck2KHgMCPdY")
-elif opcion == "Propiedades químicas":
-    st.header("Propiedades químicas de la histidina")
-    st.write("""La histidina es un aminoácido esencial con estas propiedades químicas principales:
-1.	Fórmula química: C6H9N3O2
-
-2.	Polar y básica: Su cadena lateral contiene un anillo de imidazol.
-
-3.	pKa del imidazol: ~6.0, permitiendo actuar como ácido o base cerca del pH fisiológico.
-
-4.	Capacidad de enlace: Forma enlaces de hidrógeno y se une a iones metálicos.
-
-5.	Soluble en agua: Debido a su polaridad.
-
-6.	Función bioquímica: Participa en la catálisis enzimática y actúa como tampón biológico.
-""")
-    # Datos de pKa para la histidina y algunas otras proteínas
-proteins = ["Histidina", "Aspartato", "Glutamato", "Cisteína", "Lysina"]
-pKa_values = [6.0, 3.9, 4.2, 8.3, 10.5]
-
-# Crear la interfaz de Streamlit
-st.title("Comparación de pKa de la Histidina con Otras Proteínas")
-st.write("A continuación se muestra una comparación sencilla de los valores de pKa de varios aminoácidos comunes.")
-
-# Crear un gráfico de barras con Streamlit
-st.bar_chart(data={"Proteínas": proteins, "pKa": pKa_values})
 elif opcion == "Funciones biológicas":
    st.header("Funciones biologicas de la Histidina")
    st.write("""La histidina cumple varias funciones biológicas esenciales en el cuerpo humano debido a su estructura química única, que incluye un anillo imidazol capaz de participar en diversas reacciones químicas. Aquí están sus principales funciones:""")
@@ -84,5 +59,30 @@ En el metabolismo, la histidina puede ser degradada en el ciclo de los ácidos t
 8. Rol en el sistema inmunológico  
 - Participa en la maduración y función de los glóbulos blancos.  
 - Es esencial para la síntesis de proteínas involucradas en la respuesta inmune, como las inmunoglobulinas.""")
+elif opcion == "Propiedades químicas":
+    st.header("Propiedades químicas de la histidina")
+    st.write("""La histidina es un aminoácido esencial con estas propiedades químicas principales:
+1.	Fórmula química: C6H9N3O2
+
+2.	Polar y básica: Su cadena lateral contiene un anillo de imidazol.
+
+3.	pKa del imidazol: ~6.0, permitiendo actuar como ácido o base cerca del pH fisiológico.
+
+4.	Capacidad de enlace: Forma enlaces de hidrógeno y se une a iones metálicos.
+
+5.	Soluble en agua: Debido a su polaridad.
+
+6.	Función bioquímica: Participa en la catálisis enzimática y actúa como tampón biológico.
+""")
+    # Datos de pKa para la histidina y algunas otras proteínas
+proteins = ["Histidina", "Aspartato", "Glutamato", "Cisteína", "Lysina"]
+pKa_values = [6.0, 3.9, 4.2, 8.3, 10.5]
+
+# Crear la interfaz de Streamlit
+st.title("Comparación de pKa de la Histidina con Otras Proteínas")
+st.write("A continuación se muestra una comparación sencilla de los valores de pKa de varios aminoácidos comunes.")
+
+# Crear un gráfico de barras con Streamlit
+st.bar_chart(data={"Proteínas": proteins, "pKa": pKa_values})
 
 

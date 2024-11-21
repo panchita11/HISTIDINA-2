@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("HISTIDINA")
+st.title("HISTIDINA👩🏻‍🔬")
 st.sidebar.title("Menú de navegación")
 st.sidebar.header("Secciones disponibles")
 

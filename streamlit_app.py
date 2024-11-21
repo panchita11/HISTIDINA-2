@@ -58,4 +58,4 @@ En el metabolismo, la histidina puede ser degradada en el ciclo de los ácidos t
 8. Rol en el sistema inmunológico  
 - Participa en la maduración y función de los glóbulos blancos.  
 - Es esencial para la síntesis de proteínas involucradas en la respuesta inmune, como las inmunoglobulinas.""")
-    st.video("https://youtu.be/q0BljBXEpWE?si=vMA1uck2KHgMCPdY")
+   

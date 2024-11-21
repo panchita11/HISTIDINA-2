@@ -59,4 +59,32 @@ En el metabolismo, la histidina puede ser degradada en el ciclo de los ácidos t
 8. Rol en el sistema inmunológico  
 - Participa en la maduración y función de los glóbulos blancos.  
 - Es esencial para la síntesis de proteínas involucradas en la respuesta inmune, como las inmunoglobulinas.""")
+elif opcion == "Propiedades químicas":
+    st.header("Propiedades químicas de la histidina")
+    st.write("""La histidina es un aminoácido esencial con estas propiedades químicas principales:
+1.	Fórmula química: C6H9N3O2
+
+2.	Polar y básica: Su cadena lateral contiene un anillo de imidazol.
+
+3.	pKa del imidazol: ~6.0, permitiendo actuar como ácido o base cerca del pH fisiológico.
+
+4.	Capacidad de enlace: Forma enlaces de hidrógeno y se une a iones metálicos.
+
+5.	Soluble en agua: Debido a su polaridad.
+
+6.	Función bioquímica: Participa en la catálisis enzimática y actúa como tampón biológico.
+""")
+elif opcion == "Propiedades químicas":
+    st.header("Propiedades químicas de la histidina")
+    # Datos de pKa para la histidina y algunas otras proteínas
+proteins = ["Histidina", "Aspartato", "Glutamato", "Cisteína", "Lysina"]
+pKa_values = [6.0, 3.9, 4.2, 8.3, 10.5]
+
+# Crear la interfaz de Streamlit
+st.title("Comparación de pKa de la Histidina con Otras Proteínas")
+st.write("A continuación se muestra una comparación sencilla de los valores de pKa de varios aminoácidos comunes.")
+
+# Crear un gráfico de barras con Streamlit
+st.bar_chart(data={"Proteínas": proteins, "pKa": pKa_values})
+
    

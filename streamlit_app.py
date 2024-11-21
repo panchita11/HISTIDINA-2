@@ -1,6 +1,7 @@
 import streamlit as st
 
 st.title("HISTIDINA👩🏻‍🔬")
+st.write(""" Proyecto de Bioinformatica"Dashboard interactivo"teniendo como tema la proteina Histidina""")
 st.sidebar.title("Menú de navegación")
 st.sidebar.header("Secciones disponibles")
 
